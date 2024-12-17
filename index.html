@@ -78,6 +78,30 @@
             color: white;
             padding: 10px 0;
         }
+        /* Flexbox layout for the features section */
+        .features {
+            display: flex;
+            justify-content: space-around;
+            gap: 30px;
+            margin-top: 20px;
+        }
+        .feature {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            width: 30%;
+        }
+        .feature h3 {
+            margin-top: 0;
+            font-size: 20px;
+            color: #4CAF50;
+        }
+        .feature p {
+            font-size: 16px;
+            color: #333;
+        }
     </style>
 </head>
 <body>
@@ -105,6 +129,24 @@
         <p>I have created a few apps that aim to make things easier for you. One of the most notable is <strong>LowCostChat</strong>, an app that offers a simple and user-friendly messaging platform designed to reduce mobile data consumption by 80% compared to most popular apps like Discord, YouTube, Snapchat, and WhatsApp. It is also designed to run smoothly on both Android smartphones and basic feature phones (dumbphones), making it accessible to a wide range of users.</p>
     </section>
 
+    <!-- LowCostChat Features -->
+    <section class="section" id="lowcostchat-features">
+        <h2>LowCostChat App Features</h2>
+        <div class="features">
+            <div class="feature">
+                <h3>Maximum Data Usage</h3>
+                <p>80% less data usage than apps like WhatsApp, Discord, and YouTube, making it ideal for users with limited data plans.</p>
+            </div>
+            <div class="feature">
+                <h3>App Size</h3>
+                <p>Only 5MB, providing a lightweight experience for users with limited storage space.</p>
+            </div>
+            <div class="feature">
+                <h3>Comparison to Other Apps</h3>
+                <p>LowCostChat runs smoothly on both smartphones and feature phones, unlike many other messaging apps that require more advanced devices.</p>
+            </div>
+        </div>
+    </section>
 
     <!-- Donation Section -->
     <section class="section" id="donations">
